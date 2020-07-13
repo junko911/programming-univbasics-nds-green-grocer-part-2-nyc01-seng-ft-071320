@@ -7,7 +7,10 @@ def apply_coupons(cart, coupons)
     coupons.each { |coupon_item|
     
       if coupon_item[:item] == cart_item[:item]
-        puts true
+        
+        
+        
+        
       end
     
     }
