@@ -8,6 +8,7 @@ def apply_coupons(cart, coupons)
     
       if coupon_item[:item] == cart_item[:item]
         cart_item[:item] = cart_item[:item] + " W/COUPON"
+        cart_item[:price] = coupon_item[:cost] / coupon_item[:num]
         
         
         
