@@ -2,7 +2,11 @@ require_relative './part_1_solution.rb'
 require 'pry'
 
 def apply_coupons(cart, coupons)
-  cart
+  cart.each { |cart_item|
+    
+    
+      
+  }
 end
 
 def apply_clearance(cart)
