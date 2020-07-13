@@ -4,10 +4,18 @@ require 'pry'
 def apply_coupons(cart, coupons)
   cart.each { |cart_item|
     
+    coupons.each { |coupon_item|
+    
+      if coupon_item[:item] == cart_item[:item]
+        puts true
+      end
+    
+    }
     
       
   }
 end
+
 
 def apply_clearance(cart)
   # Consult README for inputs and outputs
