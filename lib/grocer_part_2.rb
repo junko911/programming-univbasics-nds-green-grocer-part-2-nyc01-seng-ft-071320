@@ -2,7 +2,7 @@ require_relative './part_1_solution.rb'
 require 'pry'
 
 def apply_coupons(cart, coupons)
-  cart.each { |cart_item|
+cart.each { |cart_item|
     
     coupons.each { |coupon_item|
     
@@ -21,7 +21,6 @@ def apply_coupons(cart, coupons)
     
     }
   }
-  cart
 end
 
 
