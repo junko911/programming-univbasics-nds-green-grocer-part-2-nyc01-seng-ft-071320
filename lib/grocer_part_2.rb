@@ -10,7 +10,7 @@ def apply_coupons(cart, coupons)
         cart << {
           :item => cart_item[:item],
           :price => cart_item[:price],
-          :
+          :clearance = >
         }
         
         
